@@ -173,6 +173,15 @@ in_pasw2.pack()
 submit_btn=tkinter.Button(win, text="Submit", command=submit)
 submit_btn.pack()
 
+
+
+##########delete is here#########
+deletex = tkinter.Label(win, text="")
+deletex.pack()
+
+delete_btn=tkinter.Button(win, text="Delete", command=delete)
+delete_btn.pack()
+
 ################login count is here###################
 output_count = tkinter.Label(win, text="")
 output_count.pack()
@@ -188,12 +197,7 @@ logoutx.pack()
 logout_btn=tkinter.Button(win, text="Logout", command=logout)
 logout_btn.pack()
 
-##########delete is here#########
-deletex = tkinter.Label(win, text="")
-deletex.pack()
 
-delete_btn=tkinter.Button(win, text="Delete", command=delete)
-delete_btn.pack()
 
 ###########userslist is here###############
 
@@ -205,6 +209,10 @@ userlist_btn.pack()
 
 lst_box = tkinter.Listbox(win, height=20)
 lst_box.pack()
+
+
+
+
 
 win.mainloop()
 
